@@ -15,4 +15,6 @@ class Solution:
         moves += self.towerOfHanoi(n - 1, aux, to, fromm)
         
         return moves
-    
+
+result=Solution()
+print(result.towerOfHanoi(5, 1, 3, 2))
