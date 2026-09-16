@@ -1,6 +1,8 @@
 class Solution:
     def myPow(self, x: float, n: int) -> float:
-        # return x**n
+        return x**n
+
+# Brute Force        
         # res=1
         # if n>0:
         #     while n!=0:
@@ -14,17 +16,6 @@ class Solution:
         #     return res
 
         # return 1
-
-        
-
-
-
-
-
-
-
-
-
 
 
 result=Solution()
