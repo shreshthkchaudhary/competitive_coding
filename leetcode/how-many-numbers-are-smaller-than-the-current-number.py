@@ -1,5 +1,6 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: list[int]) -> list[int]:
+# Brute Force
         res = []
         n = len(nums)
         for i in range (n):
