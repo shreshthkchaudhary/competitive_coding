@@ -1,11 +1,12 @@
 class Solution:
     def printTillN(self, n):
-        #code here 
+        #code here
+        # 	recursion method - time & space complexity O(n)
         if n == 0:
             return
         self.printTillN(n-1)
-        return print(n, end=" ")
+        print(n, end = " ")
 
-
+        
 result=Solution()
 print(result.printTillN(6))
